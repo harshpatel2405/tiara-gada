@@ -118,3 +118,13 @@ ignore something (for user information not for computer)
     /*
     
     */
+
+
+Comments                single line and multi line comment 
+printf                  used for printing
+escape sequence          \n \t
+datatypes               int , float , char
+variables               box which stores data 
+format Specifiers       used for mentioning which data type we are using 
+
+scanf                   used for taking user input 
