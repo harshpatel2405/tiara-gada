@@ -1,0 +1,36 @@
+Datatypes 
+---------
+1. primtive    inbuilt data types   int , float, char , long , short , signed , unsigned
+2. Derived     made from primtive  symbols  functions(), array , pointer
+3. User Defined  struct, union , enum
+
+variables 
+
+int age;
+int int;  X
+float marks;
+char grade;
+
+case sensitive
+
+age 
+Age 
+AGE 
+
+
+1. no reserved keyword should be used as variable name 
+2. it shoudl start with a-z , _, $ ,A-Z
+3. Second character onwards you can use a-z , _, $ ,A-Z, 0-9
+_age
+ageA_ge 
+%age
+
+1harsh
+h1arsh
+
+
+
+
+int -> value directly -> %d (signed integer)
+float -> %f
+char -> %c

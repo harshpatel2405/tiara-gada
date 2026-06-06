@@ -1,0 +1,120 @@
+Programming | coding
+--------------------
+Which consists of a program 
+
+a = 3           instruction 1   i1
+b = 4           instruction 2   i2
+c = a + b       instruction 3   i3
+
+i1 + i2 + i3 (combining the instruction)
+
+program - set of instructions (block of code)
+
+ZOOM -- Software
+        audio  program -- instructions related to voice 
+        video 
+        chat 
+        participants 
+        react
+
+        program combine to make ZOOM
+
+Software - set of program
+
+1. System Software - Laptop -- WIndows OS, Drivers, Languages 
+
+    1. Structured Language
+    -> which human understand (hindi , english)
+
+    2. High LEvel Language (developer/coder)
+    -> which human and computer understands(C , C++, Python, JAVA)
+
+    3. Low LEvel Language / Machine / Binary Language 
+    --> 0 and 1
+    Tiara -> binary 
+
+    ASCII -> American Standard Code for information Interchange
+
+    It has given a ascii number to every character 
+
+    T   84
+    i   105
+    a   97
+    r   114
+    a   97
+
+   2 | 84
+   2 | 42  0
+   2 | 21  0
+   2 | 10  1
+   2 | 5   0
+   2 | 2   1
+   2 | 1   0
+
+   84 - 1010100
+
+   Translators 
+   1. Compiler   (C,CPP)
+   2. Interprter (Python)
+   3. Assembler  (Assembly Language)
+
+  VS CODE -> IDE  - integrated development enviroment where you will be writing the code 
+  high -> low level -> compiler -> mingw (gcc)
+
+2. Application Software -- ZOOM -- meeting , BookMyShow  - book tickets of events
+3. Utility Software -- 3D Related Software  -- CAD , CAM 
+
+
+
+
+C Language 
+----------
+Programming Language
+Dennis Ritchie in 1972
+
+easy to understand and user friendly
+
+GSEB    CBSE    ICSE 
+
+std 9 
+70-80% syllabus is same 
+
+every langauge has most of the concepts same 
+
+I want to eat 
+mujhe khana khana hai 
+mane khau che 
+
+for lanagues -> syntax differs 
+concept would be same 
+
+1. Header Section 
+2. Global Declaration Section 
+3. Linked Section 
+4. Main Function Section 
+5. User defined Function Section
+
+1. Header Section 
+-> using existing functionalities to make something 
+-> header files -> inbuilt functions  
+
+# -> preprocessor -> to check whether the file i am looking for is present or not 
+include -> the folder where header files are present 
+<>
+#include<stdio.h> -> standard input output header file 
+
+4. Main function section 
+int main()
+{ // body of the code
+    return 0;
+}
+
+comment
+-------
+ignore something (for user information not for computer)
+1. Single line 
+    // 
+2. multi line 
+    /*
+    
+    */

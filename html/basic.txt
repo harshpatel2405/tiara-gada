@@ -1,0 +1,49 @@
+HTML 
+----
+Hyper Text Markup Language 
+
+HTML was developed by Tim Berners Lee in 1991
+
+5 version 
+HTMl 5
+
+
+Websites = collection of web page
+structure + design + logic
+
+web page = a page which contains information
+
+website          webapp
+static data      dynamic data
+
+HTML + CSS + JS 
+skeleton  skin(muscles)   logic 
+
+tags
+
+tags - opening and closing tag
+       self - closing tag
+
+inline tag and block tag
+<>
+
+heading 
+paragraph 
+image 
+video 
+audio 
+
+How does a website work?
+Searching -> gir lion
+
+Broswer 
+   |
+Request
+   |
+Server
+   |
+response 
+   |
+web page
+
+
