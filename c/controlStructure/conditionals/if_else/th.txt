@@ -1,0 +1,16 @@
+Conditionals 
+------------
+1. if_else
+    a. if                  only checking one condition
+    if(condition)
+    {
+        // LOGIC - PRINTF , SCANF , PROVIDE FORMULAS , CALCULATIONS , ASSIGN VALUE
+    }
+
+    b. if_else             one condition and if it fails its backup(else)
+    c. else if ladder      multiple conditions
+    d. nested if_else      checking second condition only after the first condition gets true
+
+
+2. switch_case 
+3. ternary operator 
