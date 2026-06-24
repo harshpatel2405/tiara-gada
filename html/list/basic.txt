@@ -1,0 +1,28 @@
+List 
+----
+List is a collection of data
+
+Apple Orange Blueberry
+Apple 
+Orange 
+Blueberry
+
+1. Ordered List   ol
+    where order matters
+    1, i, I, a, A
+    type : type
+    start: starts from that value
+    reversed : will start counting from reverse
+    value - will start from that after that 
+
+2. Unordered list  ul
+    order does not matter
+    disc , square , circle
+    default shape : disc
+    
+
+3. definition list  dl
+    to provide information or definition of something
+
+    ul , ol , dl will define type of list 
+    to write we will be needing 'li' tag
