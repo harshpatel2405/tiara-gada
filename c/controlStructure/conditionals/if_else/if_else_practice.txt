@@ -139,3 +139,76 @@ Ask units consumed:
 		 ₹2 /unit for 100
 		 ₹3 /unit for 200
 		 ₹5 /unit for rest
+
+		
+Nested If..else Task 
+---------------------
+1) Check whether number is 
+	odd and negative
+	odd and positive
+	even and positive
+	even and negative
+2) Find max between three numbers
+3) Find min between three numbers
+4) Voter Eligibility with Age Check		Ask user age:
+	If age ≥ 18
+		If age ≥ 60 → "Senior Citizen Voter"
+		Else → "Regular Voter"
+	Else → "Not Eligible to Vote"
+5) Even/Odd & Divisibility		Ask a number:
+	If number is even
+		Check if it's divisible by 4
+	Else
+	Check if it's divisible by 3
+6)  Time Slot Greeting with AM/PM	
+    Input hour (1–12) and AM/PM:
+	If AM (slot == 1)
+		If hour ≤ 6 → "Very Early Morning"
+				7–11 → "Good Morning"
+	If PM (slot == 2)
+		If hour ≤ 4 → "Good Afternoon"
+				5–8 → "Good Evening"
+	Else → "Good Night"
+7) ) Exam Marks + Bonus Logic	Ask test marks and participation in 2 events (Y/N):
+	If marks ≥ 85
+		If participated in both events → "Certificate + Bonus Marks"
+		else If participated in one → "Certificate"
+	Else
+		If events done → "Encouragement Note"
+		Else → "No Bonus"
+8) Employee Salary Slip Simulation	Input:
+	Basic Salary
+	If salary > 20000
+		HRA = 25%, DA = 90%
+	Else
+		HRA = 20%, DA = 80%
+	Calculate and print Gross Salary
+9) Nested Bank Loan Eligibility Checker	
+Inputs:
+	Age
+	Monthly Income
+	Credit Score	
+Logic:
+	If age ≥ 21
+		If income ≥ 25,000
+			If credit score ≥ 750 → “Eligible for Full Loan”
+						  650–749 → “Eligible with Guarantee”
+			                < 650 → “Loan Rejected: Poor Credit”
+			Else → “Income Too Low”
+	Else → “Too Young for Loan”
+10) Real-time Billing with Discount & Tax
+	Inputs:
+		Total Bill Amount
+	    Customer type (1-Regular, 2-Member, 3-Premium)
+	Logic:
+		If amount ≥ 5000
+			Regular → 5% discount
+			Member → 10% discount
+			Premium → 15% discount
+		Else
+			Regular → No discount
+			Member → 5%
+			Premium → 10%
+			
+		After discount, apply 18% GST → Final Bill
+	
