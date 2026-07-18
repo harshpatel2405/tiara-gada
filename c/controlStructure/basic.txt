@@ -28,5 +28,34 @@ operator
 
 
 5. Increment /  decrement operator 
+    Increment -> ++ -> increase value by 1 -> count = 4 => count++ -> count = 5
+    Decrement -> ++ -> Decrease value by 1 -> count = 4 => count-- => count = 3
+
+    Post Increment -- it will update after the task is completed
+    count = 4
+    a = count++; // post Increment  -> a = 4 , count = 5
+    print(a)      4
+    print(count)  5
+    
+    post decrement -- it will update after the task is completed
+    
+    pre Increment -- it will get updated first and then do the task
+    count = 4
+    a = ++count; // pre Increment  -> a = 5 , count = 5
+    print(a)      5
+    print(count)  5
+
+
+    pre decrement -- it will get updated first and then do the task
+
+
 6. special operator 
-7. bitwise operator 
+    sizeof -- size in bytes 
+    & -> ampersand (address of)
+    
+7. bitwise operator (binary)
+&
+|
+^
+<<
+>>
