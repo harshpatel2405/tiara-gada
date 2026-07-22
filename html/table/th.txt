@@ -1,0 +1,50 @@
+Table is mainly used in the dashboards
+when there are statistics (education , work experience)
+
+table -> tag -> parent
+table -> tr -> td
+
+    tr -> table row 
+    td -> table data   -> normal and left aligned
+    th -> table header -> naming the columns -> centered and bold
+
+    header
+    thead 
+
+    body 
+    tbody
+
+    table 
+        thead
+            tr 
+                th 
+                th 
+                th
+        
+        tbody 
+            tr 
+                td 
+                td 
+                td 
+            tr 
+                td 
+                td 
+                td
+            tr 
+                td 
+                td 
+                td
+
+th -> bold and centered 
+td -> left aligned and normal text 
+
+border -> border around the table data
+
+align -> left , center , right 
+
+table -> position of the table 
+tr    -> position of whole row data 
+td    -> position of that particular data 
+
+width -> width of the table 
+height -> height of the table 
