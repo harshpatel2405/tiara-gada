@@ -1,0 +1,18 @@
+Switch Case
+-----------
+
+switch case works well with variables and fixed values
+if_else works well with conditions
+
+
+switch(choice)
+{
+    case 1 : // logic
+    case 2 : // logic
+     .            .
+     .            .
+     .            .
+     .            .
+     case n : // logic 
+     default : // logic
+}
