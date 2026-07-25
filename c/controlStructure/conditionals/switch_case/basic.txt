@@ -16,3 +16,26 @@ switch(choice)
      case n : // logic 
      default : // logic
 }
+
+<========================================================>
+Switch case is better with variables / choices 
+
+n = 20
+whether the number is even or odd 
+
+if(n % 2 == 0)
+{
+    printf("number is even ");
+}
+else
+{
+    printf("number is odd");
+}
+
+switch(n % 2 == 0)
+{
+    case 0 : printf("number is odd");
+        break;
+    case 1 : printf("number is even");
+        break;
+}

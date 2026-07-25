@@ -1,0 +1,14 @@
+1) Take a number (1–7) and print the day of the week.
+2) Take a number (1–12) and print the corresponding month name.
+3) Enter a grade (A, B, C, D, F). Print remark using switch.
+4) Enter a traffic light color (r/g/y) and print the message (Stop / Wait / Go).
+5) Take a month number and print number of days in that month.
+6) Temperature conversion menu:
+    1. Celcius to Farenheit
+    2. Farenheit to Celcius
+    3. Celcius to Kelvin
+    4. Exit
+7) Create a currency converter using switch:
+    1. INR to USD
+    2. USD to EUR
+    3. EUR to INR

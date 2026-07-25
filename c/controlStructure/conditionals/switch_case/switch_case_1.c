@@ -23,7 +23,6 @@ int main()
         break;
     default:
         printf("Select Season from 1-4 only");
-
     }
 
     return 0;
