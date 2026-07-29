@@ -48,3 +48,34 @@ td    -> position of that particular data
 
 width -> width of the table 
 height -> height of the table 
+
+<=====================>
+Cellspacing 
+Space Between Cells
+
+
+cellpadding 
+Space Inside Cells
+
+Only works with table tag <table>
+<=====================>
+bgcolor
+changes the background color
+
+Works for , table , tr , td , and th
+<============================================>
+1. Scope 
+tell the browser that to which cells headers are applied
+
+2. Abbr
+3. headers 
+4. valign
+<===================================================>
+Colspan 
+td 
+columns will be merged
+
+
+Rowspan 
+td
+rows will be merged
