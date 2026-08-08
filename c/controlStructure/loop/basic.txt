@@ -1,0 +1,55 @@
+Loop 
+----
+Doing a specific thing again and again 
+Doing tasks repeatedly
+
+1. Print hello World 5 times -- using loops instead of normal approach
+    printf("HEllo World\n");
+    printf("HEllo World\n");
+    printf("HEllo World\n");
+    printf("HEllo World\n");
+    printf("HEllo World\n");
+
+<===================================================================>
+1. Initialize        -- only once
+2. Condition         -- till the Condition is true
+3. Operational Part  -- till the condition is true
+4. Inc / Dec         -- till the condition is true
+<===================================================================>
+Iterations -- count of loop running 
+
+
+<===================================================================>
+*Types of Loop*
+---------------
+1. Entry - Controlled Loop (min : 0)
+--> Condition is checked first , if the condition is true , then loop will get executed 
+                                 else , loop will not executed
+
+       a. for  -- when number of iterations are known 
+
+       for(Initialization ; condition ; inc /dec)
+       {
+            // logic / operational part 
+       }
+
+       b. while  -- when number of iterations ar not known
+
+       Initialization ;
+       while(condition)
+       {
+            // logic / operational part 
+            // inc / dec ;
+       }                       
+
+2. Exit - Controlled Loop (min : 1)
+--> Condition is checked after logic 
+
+    a. do..while loop
+
+     Initialization ;
+     do
+     {
+          // logic / operational part 
+          // inc / dec ;
+     }  while(condition);
