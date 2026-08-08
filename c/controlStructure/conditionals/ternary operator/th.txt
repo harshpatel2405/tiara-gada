@@ -1,0 +1,9 @@
+Ternary / Conditional Operator 
+------------------------------
+Ternary -> three operands will be there 
+mini if_else
+Symbol  ->  ?:
+conditional_Expression ? "True" : "False";
+
+--------------
+1. Check if age is greater than 18 or not 
