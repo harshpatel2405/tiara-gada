@@ -1,0 +1,18 @@
+Forms 
+-----
+to get data from user 
+
+<form>
+
+<input>
+<label>
+<textarea>
+
+type 
+id
+placeholder
+name 
+value
+
+
+lable -> for
