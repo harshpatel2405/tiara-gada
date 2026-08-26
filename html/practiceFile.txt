@@ -1,0 +1,352 @@
+============================================================
+QUESTION — ONLINE FOOD ORDERING & DELIVERY SYSTEM
+============================================================
+
+Scenario:
+"Foodie Express" is a popular online food delivery restaurant.
+The restaurant wants a single webpage where customers can:
+
+    1. See today's special offer
+    2. View the available food items
+    3. Select food and customize their order
+    4. Enter their delivery details
+    5. Select a payment method
+    6. Place their order
+
+Create a complete HTML webpage for the "Foodie Express"
+Online Food Ordering & Delivery System.
+
+
+============================================================
+1. SPECIAL OFFER — MARQUEE
+============================================================
+
+At the top of the webpage, display a marquee showing:
+
+    "🔥 FOODIE EXPRESS — Today's Special: 20% OFF on
+     Selected Items — Order Now! 🔥"
+
+The marquee must use at least THREE attributes.
+
+Use suitable values for:
+
+    - direction
+    - behavior
+    - scrollamount
+
+You may also use other marquee attributes if required.
+
+
+============================================================
+2. RESTAURANT MENU — TABLE
+============================================================
+
+Display the restaurant's menu using an HTML table.
+
+The table must contain the following information:
+
+    Item ID | Food Name | Category | Price | Size | Availability
+    ----------------------------------------------------------------
+    F101    | Margherita Pizza | Fast Food | ₹250 | Large  | Available
+    F102    | Cheese Burger   | Fast Food | ₹150 | Medium | Available
+    F103    | Alfredo Pasta   | Italian   | ₹220 | Large  | Available
+    F104    | Club Sandwich   | Snacks    | ₹120 | Medium | Available
+    F105    | Cold Coffee     | Beverage  | ₹100 | Large  | Available
+    F106    | French Fries    | Snacks    | ₹90  | Medium | Available
+
+Table Requirements:
+
+    ✓ Use <caption> for the table title.
+    ✓ Use <thead>.
+    ✓ Use <tbody>.
+    ✓ Use <tfoot>.
+    ✓ Use <th> and <td> correctly.
+    ✓ Use at least ONE rowspan.
+    ✓ Use at least ONE colspan.
+
+The footer of the table should display something meaningful,
+such as:
+
+    "All prices are inclusive of applicable taxes."
+
+
+============================================================
+3. CUSTOMER ORDER FORM
+============================================================
+
+Below the menu, create an "Order Now" form.
+
+The customer should be able to select and customize their food.
+
+
+Customer Information
+--------------------
+
+Create fields for:
+
+    1. Customer Name
+    2. Email
+    3. Mobile Number
+
+
+Food Selection
+--------------
+
+Create fields for:
+
+    4. Select Food Item
+       - Margherita Pizza
+       - Cheese Burger
+       - Alfredo Pasta
+       - Club Sandwich
+       - Cold Coffee
+       - French Fries
+
+    5. Quantity
+
+    6. Select Size
+       - Small
+       - Medium
+       - Large
+
+
+Customization
+-------------
+
+7. Extra Toppings
+
+   Use CHECKBOXES for:
+
+       ☐ Extra Cheese
+       ☐ Jalapeno
+       ☐ Olives
+       ☐ Mushroom
+
+
+8. Spice Level
+
+   Use RADIO BUTTONS:
+
+       ○ Mild
+       ○ Medium
+       ○ Spicy
+
+
+Delivery Information
+--------------------
+
+9. Delivery Address
+
+   Use a <textarea>.
+
+10. City
+
+11. Pincode
+
+
+Payment Details
+---------------
+
+12. Payment Method
+
+    Use a <select> dropdown:
+
+       - Cash on Delivery
+       - UPI
+       - Credit Card
+       - Debit Card
+
+
+13. Order Instructions
+
+    Add a textarea where the customer can enter
+    special instructions.
+
+    Example:
+    "Please deliver without onions."
+
+
+============================================================
+4. FORM VALIDATION
+============================================================
+
+Apply HTML5 validation wherever appropriate.
+
+The following rules MUST be followed:
+
+    Customer Name
+    → required
+    → minimum 3 characters
+
+    Email
+    → type="email"
+    → required
+
+    Mobile Number
+    → exactly 10 digits
+    → required
+    → use pattern
+
+    Food Item
+    → required
+
+    Quantity
+    → minimum 1
+    → maximum 10
+    → required
+
+    Size
+    → required
+
+    Delivery Address
+    → required
+    → minimum 10 characters
+
+    City
+    → required
+
+    Pincode
+    → exactly 6 digits
+
+    Payment Method
+    → required
+
+
+============================================================
+5. ORDER BUTTONS
+============================================================
+
+At the bottom of the form, create:
+
+    [ PLACE ORDER ]
+
+    [ RESET FORM ]
+
+
+Use:
+
+    type="submit"
+
+and
+
+    type="reset"
+
+
+The form should NOT be submitted if any required
+field contains invalid data.
+
+
+============================================================
+6. EXTRA HTML REQUIREMENTS
+============================================================
+
+Your webpage must also contain:
+
+    ✓ <html>
+    ✓ <head>
+    ✓ <title>
+    ✓ <body>
+    ✓ <h1> / <h2>
+    ✓ <marquee>
+    ✓ <form>
+    ✓ <label>
+    ✓ Different <input> types
+    ✓ <select>
+    ✓ <option>
+    ✓ <textarea>
+    ✓ Radio buttons
+    ✓ Checkboxes
+    ✓ <table>
+    ✓ <caption>
+    ✓ <thead>
+    ✓ <tbody>
+    ✓ <tfoot>
+    ✓ <tr>
+    ✓ <th>
+    ✓ <td>
+    ✓ rowspan
+    ✓ colspan
+    ✓ required
+    ✓ minlength
+    ✓ maxlength where appropriate
+    ✓ min
+    ✓ max
+    ✓ pattern
+    ✓ type="email"
+    ✓ Submit button
+    ✓ Reset button
+
+
+============================================================
+BONUS CHALLENGE ⭐
+============================================================
+
+Add a "Delivery Information" section below the order form.
+
+Create a small table:
+
+    Delivery Type | Estimated Time | Delivery Charge
+    --------------------------------------------------
+    Standard      | 30-45 minutes  | ₹30
+    Express       | 15-25 minutes  | ₹60
+
+Then add a radio button to the order form:
+
+    ○ Standard Delivery
+    ○ Express Delivery
+
+The customer must select one delivery option before
+placing the order.
+
+
+============================================================
+EXPECTED PAGE FLOW
+============================================================
+
+        FOODIE EXPRESS
+              ↓
+        MARQUEE OFFER
+              ↓
+        TODAY'S MENU
+              ↓
+        MENU TABLE
+              ↓
+        ORDER NOW
+              ↓
+        CUSTOMER INFORMATION
+              ↓
+        FOOD SELECTION
+              ↓
+        CUSTOMIZATION
+              ↓
+        DELIVERY INFORMATION
+              ↓
+        PAYMENT METHOD
+              ↓
+        ORDER INSTRUCTIONS
+              ↓
+        PLACE ORDER / RESET
+
+
+IMPORTANT:
+------------------------------------------------------------
+
+Do NOT create the form, table and marquee as unrelated
+examples.
+
+They must work together as ONE complete scenario:
+
+    MARQUEE
+       ↓
+    Announces the restaurant offer
+
+    TABLE
+       ↓
+    Shows the customer what food is available
+
+    FORM
+       ↓
+    Allows the customer to order from that menu
+
+This should look like a real "Online Food Ordering"
+HTML webpage rather than three separate HTML exercises.
