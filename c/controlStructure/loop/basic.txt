@@ -65,3 +65,35 @@ n % 2 == 0
 
 
 n % n == 0
+
+<================================>
+Break
+Current Loop Gets break
+
+for(int i = 1 ;i <= 10;i++)
+{
+     printf(i);
+     if(i == 5)
+     {
+          break;
+     }
+
+}
+
+1 2 3 4 5
+
+
+Continue
+skip the Current/particular iteration 
+
+for(int i = 1 ;i <= 10;i++)
+{
+     if(i == 5)
+     {
+          Continue;
+     }
+     printf(i);
+
+}
+
+1 2 3 4 6 7 8 9 10
