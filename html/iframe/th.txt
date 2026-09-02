@@ -1,0 +1,7 @@
+Iframe 
+------
+Integrated Frame 
+
+iframe 
+html , image , audio , video , google maps , youtube videos , any other website
+<iframe src="" width="" height=""></iframe>
