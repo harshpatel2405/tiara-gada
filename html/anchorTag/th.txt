@@ -1,0 +1,16 @@
+Anchor Tag
+----------
+Used for linking the pages 
+
+<a>content to display on browser</a>
+
+attribute 
+---------
+href - hyper reference 
+    online link 
+    offline -- any type of file 
+            -- if file can be opened in browser , it will open the file 
+            -- else it will download the file 
+
+target -- on which tab to open 
+    _blank -- open in new tab 

@@ -1,0 +1,27 @@
+Semantic Tags
+-------------
+describe the purpose of content inside the tag
+improving website SEO
+
+<section>
+    <h1>Section 1 tag</h1>
+</section>
+
+header 
+nav
+main 
+section 
+article 
+aside 
+footer 
+summary 
+time 
+address
+strong 
+em 
+
+
+non-semantic tags 
+-----------------
+div  block tag 
+span inline tag
