@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- * Form is used to collect data from user 
+         * label -- used for referencing the box
+         * input tag -- type placeholder name id  required min max maxlength minlength 
+         * type attribute  -- number, text , email , password , url , file , date , datetime , radio , checkbox , tel 
+         * select tag and option tag -- dropdown 
+         * textarea tag -- expanding the input box
+
+         /
+    -->
+
+    <form action="index.html">
+        <label for="email">Enter Email : </label>
+        <input type="email" placeholder="Enter your email" id="email" name="email">
+
+        <br>
+        <label for="username">Enter Username: </label>
+        <input type="username" placeholder="Enter your username" id="username" name="username" required minlength="5" maxlength="10">
+        <br>
+        
+
+        <select name="city">
+            <option value="ahm">Ahmedbad</option>
+            <option>Ahmedbad</option>
+            <option>Ahmedbad</option>
+            <option>Ahmedbad</option>
+        </select>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
