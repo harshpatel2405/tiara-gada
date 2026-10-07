@@ -6,18 +6,21 @@ Digits
 6 is digit 
 5 is digit 
 
-1. Print digits 
-2. Count digits 
-3. sum of digits  sum = sum + rem 
+1. Print digits   ..
+2. Count digits   ..
+3. sum of digits  sum = sum + rem   hw
 4. multiplication of digits      hw
-5. reverse the number 
+5. reverse the number     ..
 6. Find odd and even digitsn  hw
-7. find last and first digit 
-8. Find largest digit 
-9. Find smallest digit 
+7. find last and first digit  ..
+8. Find largest digit  .. 
+9. Find smallest digit  ..
 10. Find sum of even digits  hw
 11. Find sum of odd digits   hw
-12. Palindrome Check 
+12. Palindrome Check   .. 
 13. Find second largest digit in the number 
 14. check whether the digits are in ascending , descending or random order.....
 15. Find number of digits less than 5   hw
+
+
+8 9 13 14
