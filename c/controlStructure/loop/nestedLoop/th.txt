@@ -1,0 +1,31 @@
+Nested Loop 
+-----------
+loop inside another loop 
+
+visit 3 building each with 3 floors 
+
+visit 3 building -- 1 loop 
+visit each floor - 1 loop 
+
+for(int i = 1; i <= 3; i++)
+{
+    printf("Building %d - ", i);
+    for(int j = 1; j <= 3; j++)
+    {
+        printf("Floor %d\t", j);
+    }
+    printf("\n");
+}
+
+
+Buidling 1 --  Floor 1 , Floor 2 , Floor 3
+Building 2 
+Buidling 3 
+
+
+I - 1 , J - 1 , 2 , 3 , 4 , 5
+I - 2 , J - 1 , 2 , 3 , 4 , 5
+I - 3 , J - 1 , 2 , 3 , 4 , 5
+
+i - parent loop -- 3 times 
+j - child loop  -- 5 times 
