@@ -1,0 +1,60 @@
+<==============================================================================>
+Datatypes 
+---------
+Primitive  -- int , float , char , long , short , double -- inbuilt (names)
+Derived    -- array [] , function () , pointer *  -- inbuilt(shapes)
+User-Defined  -- union , structure , enum   -- inbuilt (names)
+
+<==============================================================================>
+Array 
+-----
+Array -- derived data type (shape : [])
+Array -- collection of elements of same data type
+Array Index starts from 0
+Array Elements are stored contigously 
+
+<==============================================================================>
+Need Of Array 
+-------------
+Suppose , you have to store marks of 10 students ,,how many variables will be needed ? -- 10 variables 
+
+All variables will be not connected to each other ..
+you have to name 10 variables seperately 
+you cannot use loop with those 10 variables 
+
+  a          b          c          d          e
+|-----|    |-----|    |-----|    |-----|    |-----|      
+| 10  |    | 20  |    | 30  |    | 40  |    | 50  |      
+|-----|    |-----|    |-----|    |-----|    |-----|    
+ 1000       1004       1008       1012       1016  
+
+Soln 
+----
+|------------------------------------------------------|
+|   0          1          2          3          4      |
+| |-----|    |-----|    |-----|    |-----|    |-----|  |    
+| | 10  |    | 20  |    | 30  |    | 40  |    | 50  |  |    
+| |-----|    |-----|    |-----|    |-----|    |-----|  |  
+|  1000       1004       1008       1012       1016    |
+|------------------------------------------------------| 
+                        BOX
+    0th Element -- BOX[0] -- 10
+    1st Element -- BOX[1] -- 20
+    2nd Element -- BOX[2] -- 30
+    3rd Element -- BOX[3] -- 40
+    4th Element -- BOX[4] -- 50
+
+<==============================================================================>
+
+Declaration Of Array 
+--------------------
+    a. NO SIZE MENTIONED -- value needs to be provided at initialisation 
+        # int arr[];  X
+        int arr[] = {10,20,30,40,50,60,70,80,90,100};
+
+    b. Size is mentioned 
+        I. provide value at initialisation 
+            int arr[5] = {10,20,30,40,50};
+        
+        II. provide values afterwards
+            int arr[5]; 
